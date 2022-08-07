@@ -4467,6 +4467,13 @@ input[type="button"].btn-block {
   margin-bottom: 15px;
 }
 
+@media (min-width: 320px){
+  .carousel-item img{
+    width: 320px ;
+    height: 320px ;
+  }
+}
+
 @media (min-width: 576px) {
   .card-deck {
     display: flex;
